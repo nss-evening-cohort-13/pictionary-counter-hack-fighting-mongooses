@@ -1,9 +1,5 @@
 'use strict';
 
-console.log('yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay');
-
-
-
 const colorValue= () => {
     if (displayValue > 0) {
     document.querySelector('displayValue').style.color = '#25B14C'
@@ -13,3 +9,5 @@ const colorValue= () => {
     document.querySelector('displayValue').style.color = '#000000'
     }
 };
+
+colorValue();
