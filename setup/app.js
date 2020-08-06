@@ -8,14 +8,18 @@ const printToDom = (divId, textToPrint) => {
 let display = 0;
 
 const addValue = () => {
+  let domString = '';
   display++;
-  printToDom('displayValue', display);
+  domString += display;
+  printToDom('displayValue', domString);
   colorValue();
 }
 
 const subtractValue = () => {
+  let domString = '';
   display--;
-  printToDom('displayValue', display);
+  domString += display;
+  printToDom('displayValue', domString);
   colorValue();
 }
 
